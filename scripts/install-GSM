@@ -12,7 +12,7 @@ extension-manager 2> /dev/null
 echo "Install gnome-shell-manager"
 dpkg -s gnome-shell-extension-manager >/dev/null 2>&1
 if [ ! $? -eq 0 ]; then
-  sudo apt install gnome-shell-extension-manager >/dev/null 2>/dev/null
+  sudo apt -y install gnome-shell-extension-manager >/dev/null 2>/dev/null
   echo "done"
   echo ""
   else
