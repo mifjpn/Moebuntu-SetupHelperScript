@@ -27,8 +27,7 @@ clear
 echo -e $COL_GREEN" ------------------------------------------------------------------------------"
 echo -e "$COL_GREEN                          Moebuntu Setting Helper"
 echo -e $COL_GREEN" ------------------------------------------------------------------------------"$COL_RESET
-PS3='
-Please enter your choice: '
+PS3='Please enter your choice: '
 options=( 'set gnome-shell-extension-manager(Do first!)'
           'set theme Pink'
           'set theme Blue'
@@ -46,6 +45,8 @@ options=( 'set gnome-shell-extension-manager(Do first!)'
           'remove Moe-spinner plymouth'
           'set Moe Example Background'
           'remove Moe Example Background(Reset to jellyfish)'
+          'firefox to deb package'
+          'firefox to snap package'
           'quit')
 
 select opt in "${options[@]}"
@@ -117,6 +118,14 @@ do
     ;;
     "remove Moe Example Background(Reset to jellyfish)")
       /bin/bash wallmanager remove ;
+      break
+    ;;
+    "firefox to deb package")
+      /bin/bash firefox2deb ;
+      break
+    ;;
+    "firefox to snap package")
+      /bin/bash firefox2snap ;
       break
     ;;
     "quit")
