@@ -21,5 +21,7 @@ fi
 echo "--Please set extention-manager--"
 extman;
 echo "thank you!"
+echo " activate user-theme"
+sudo cp ~/.local/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com/schemas/org.gnome.shell.extensions.user-theme.gschema.xml /usr/share/glib-2.0/schemas && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 exit 0
 
