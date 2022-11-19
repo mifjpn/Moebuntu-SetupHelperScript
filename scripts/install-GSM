@@ -1,7 +1,7 @@
 #!/bin/bash
 
 extman(){
-    echo "1.Search for \"User Themes\" in the \"Find\" tab"
+    echo "1.Search for \"User Themes\" in the \"Browse\" tab"
     echo "2.Click the \"Add\" button to install"
     echo "3.Go to the "Added" tab and activate the Extension by setting the button on the header to \"ON\" (to the right)"
     echo "4.turn on the button to the right of \"User Themes\""
