@@ -12,6 +12,7 @@
   #snap list contain firefox?
   if snap list | grep -q -n firefox; then
     echo " remove snap firefox"
+    echo "  CAUTION!!:if remove command is waited longtime,stop this script(quit at Window-close button or ^c) and run update-manager for update all snap!!"
     sudo snap remove --purge firefox
     sudo apt remove --autoremove firefox >/dev/null 2>/dev/null
   fi
