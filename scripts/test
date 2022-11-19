@@ -1,8 +1,0 @@
-#!/bin/bash
-
-if snap list | grep -q -n firefox; then
-  echo "true"
-  else
-  echo "false" 
-fi
-
