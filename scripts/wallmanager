@@ -11,7 +11,7 @@ InstallCurl() {
   echo " install curl="
   dpkg -s curl >/dev/null 2>&1
   if [ ! $? -eq 0 ]; then
-    sudo apt -y install curl >/dev/null 2>/dev/null
+    sudo apt -y install curl
     else
         echo "Already Installed"
   fi

@@ -22,7 +22,7 @@
   sudo cp mozillateamppa /etc/apt/preferences.d/
   echo " install deb-firefox"
   sudo apt update >/dev/null 2>/dev/null
-  sudo apt -y install firefox >/dev/null 2>/dev/null
+  sudo apt -y install firefox
   echo " install deb-firefox to dock as favorite"
   tmp=`gsettings get org.gnome.shell favorite-apps`
   tmp=`echo $tmp | sed s/\\\\[/"['firefox.desktop',"/`
