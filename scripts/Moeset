@@ -44,7 +44,7 @@ options=( 'set gnome-shell-extension-manager(Do first!)'
           'set Moe-spinner plymouth'
           'remove Moe-spinner plymouth'
           'set Moe Example Background'
-          'remove Moe Example Background(Reset to jellyfish)'
+          'remove Moe Example Background(Reset to System default)'
           'firefox to deb package'
           'firefox to snap package'
           'quit')
