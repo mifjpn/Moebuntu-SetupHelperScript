@@ -116,7 +116,7 @@ do
       /bin/bash wallmanager install ;
       break
     ;;
-    "remove Moe Example Background(Reset to jellyfish)")
+    "remove Moe Example Background(Reset to System default)")
       /bin/bash wallmanager remove ;
       break
     ;;
